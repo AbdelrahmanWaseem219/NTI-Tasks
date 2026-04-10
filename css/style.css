@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: "Miranda Sans",sans-serif;
+}
+
+:root{
+    --nummber-color: #bbdefa
+}
+:root{
+    --opearion-color: #fed16e
+}
+
+
+.my-3{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+.text-center{
+    text-align: center;
+}
+#numbers{
+    background-color: rgb(50, 55, 62);
+    margin: 3%;
+}
+.word {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: block;
+  border-bottom: 10px solid #2f6f7a;
+  width: 250px;
+  padding-bottom: 5px;
+  margin-left: 600px;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+#calculator{
+    margin: 15%;
+    text-align: center;
+    background-color: rgb(38, 145, 217);
+    padding: 15%;
+}   
+
+.content{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 10%;
+    padding: 10%;
+    
+}
+
+#calculator h2{
+    width: 50%;
+    background-color:#f7f7f7;
+    align-items: end;
+   
+}
+
+.yellow{
+    width: 3rem;
+    background-color:var(--opearion-color);
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.blue{
+       
+    background-color: var(--nummber-color);
+    border-color: transparent;
+    border-radius: 10px;
+    width: 3rem;
+}
+
+#basic-info{
+    margin: 15%;
+    background-color: rgb(61, 65, 67);
+}
+
+#basic-info h2{
+    background-color:gray ;
+    text-align: left;
+}
+
+.row input{
+    width: 150px;
+    margin-bottom: 20px;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.row label{
+    color: grey;
+}
