@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+li,a,button{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+:root{
+    --main-color: #2DA884;
+    --sec-color:#232A42;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.txt-center{
+    text-align: center;
+}
+header {
+  background-image: url(../images/grass.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar{
+    padding: 24px 98px 24px 98px;
+    border-bottom: 1px solid white;  
+    vertical-align: middle;  
+}
+
+.nav-items{
+    margin-left: 220px;
+}
+
+.logo{
+    color: white;
+}
+
+
+
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 40px;
+}
+
+.nav-buttons{
+    padding: 1%;
+    margin-left: 90px;
+}
+
+.signup-btn,
+.login-btn{
+    border-radius: 30px;
+    padding:16px 40px 16px 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    border: transparent;
+}
+
+.signup-btn{
+    
+}
+
+.login-btn{
+    background-color:var(--main-color) ;
+    color: white;
+
+}
+
+.hero-section{
+    margin-top: 5%;
+}
+
+
+.hero-txt h1{
+    color: white;
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+.hero-txt p{
+    color: white;
+    margin-bottom: 24px;
+}
+
+.getstarted-btn,
+.lm-btn{
+    padding:32px 40px 32px 40px;
+    border-radius: 50px;
+    font-weight: bold;
+    border-color: transparent;
+}
+
+.getstarted-btn{
+    background-color:#2DA884 ;
+    color: white;
+}
+
+.lm-btn{
+    color: #2DA884;
+}
+
+.stats {
+  background: #eee;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 5% auto;   
+  width: 70%;        
+}
+
+.stat {
+  display: inline-block;
+  width: 22%;
+  vertical-align: top;
+  position: relative;
+}
+
+.stat:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 60%;
+  width: 1px;
+  background: gray;
+}
+
+.stat h2 {
+  font-size: 30px;
+}
+
+.stat span {
+  color: green;
+}
+
+.stat p {
+  font-size: 14px;
+  color: gray;
+}
